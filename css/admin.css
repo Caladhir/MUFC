@@ -1,0 +1,243 @@
+* {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: url('../images/body-background.webp') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  background: linear-gradient(0.7turn, rgba(0, 0, 0, 0.7), rgba(141, 13, 13, 0.7)), url('../images/Man_United-background.jpg');
+  background-size: auto;
+  color: #fff;
+  padding:  20px 0 0 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+header img {
+  height: 140px;
+}
+
+nav {
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(141, 13, 13));
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.section-line {
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+  border-radius: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.2em;
+}
+
+.form-search {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.sub-container {
+  margin: 10px auto;
+  width: 47%;
+}
+
+.container section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.container section h1 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-icon {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+}
+
+.news-item {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border-radius: 10px;
+  border-color: #fff;
+  border-width: 2px;
+  margin: 10px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+
+.news-item:hover {
+  transform: scale(1.05);
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.news-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.news-item p {
+  padding: 0 20px;
+}
+
+.news-item h4 {
+  padding: 0 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  background: linear-gradient(to top, #000000, #8d0e0d);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 5px 10px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  color: #333333;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="file"], form textarea, form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"], .btn {
+  background-color: #5f062b;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#last_label {
+  margin-top: 20px;
+}
+
+#kategorija {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.img_form {
+  margin-bottom: 20px;
+}
+
+form input[type="submit"]:hover, .btn:hover {
+  background-color: #b7151b;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 0 15px;
+    padding-bottom: 40px;
+  }
+
+  header {
+    height: 38rem;
+  }
+  footer {
+    font-size: 0.8em;
+  }
+}

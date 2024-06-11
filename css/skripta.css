@@ -1,0 +1,112 @@
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: url('../images/body-background.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background: linear-gradient(0.7turn, rgba(0, 0, 0, 0.7), rgba(141, 13, 13, 0.7)), url('../images/Man_United-background.jpg');
+    background-size: auto;
+    color: #fff;
+    padding: 20px 0 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 140px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(141, 13, 13));
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.result {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+.uspjeh{
+    color: rgb(0, 255, 0);
+}
+.result img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(to top, #000000, #8d0e0d);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px 10px;
+}
+@media (max-width: 600px) {
+    nav ul li {
+      display: block;
+      margin: 0 15px;
+      padding-bottom: 40px;
+    }
+  
+    footer {
+      font-size: 0.8em;
+    }
+    header {
+      height: 38rem;
+    }
+  }
+  
