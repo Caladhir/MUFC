@@ -106,6 +106,7 @@ if (isset($_GET['logout'])) {
                 $kat = $_POST['kategorija'];
                 $query .= " WHERE kategorija = '$kat'";
             }
+            $query .= " ORDER BY datum DESC";
             $rezultat = mysqli_query($conn, $query);
             while ($row = mysqli_fetch_array($rezultat)) : ?>
                 <div class="sub-container">
