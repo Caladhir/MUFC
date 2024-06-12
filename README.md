@@ -13,3 +13,6 @@ password: 123
 login za već postojećeg običnog korisnika je
 username: karlo2000
 password: 123123
+
+link za video:
+https://youtu.be/RZjdMXYXPV4
