@@ -16,3 +16,5 @@ password: 123123
 
 link za video:
 https://youtu.be/RZjdMXYXPV4
+
+Prikaz funkcionalnosti web stranice Manchester United Fan Club (MUFC). U ovom videu, demonstriram glavne funkcionalnosti stranice, uključujući pregled članaka, kategorija i administrativni panel. Iako nisam prikazao registraciju, mogu potvrditi da je registracija testirana i funkcionira
